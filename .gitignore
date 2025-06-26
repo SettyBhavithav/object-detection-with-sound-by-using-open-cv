@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm / IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Model Weights (>100MB)
+models/*.weights
+*.weights
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/

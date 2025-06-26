@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Object Detection & Audio Alert AI System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-title">
+                <span class="badge">VISION + AUDIO AI</span>
+                <h1>Real-Time Object Detection & Sound Alerts</h1>
+                <p>Powered by OpenCV DNN, YOLO Architecture, and Multi-Modal Spatial Audio</p>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            <!-- Controls Sidebar -->
+            <aside class="panel controls-panel">
+                <h2>⚙️ Configuration</h2>
+                
+                <div class="control-group">
+                    <label>Mode Select</label>
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" id="tab-webcam" onclick="switchMode('webcam')">📹 Live Webcam</button>
+                        <button class="tab-btn" id="tab-upload" onclick="switchMode('upload')">📁 Image Upload</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label for="conf-slider">Confidence Threshold: <span id="conf-val">0.35</span></label>
+                    <input type="range" id="conf-slider" min="0.10" max="0.90" step="0.05" value="0.35">
+                </div>
+
+                <div class="control-group toggle-group">
+                    <label for="audio-toggle">🔊 Audio Chime Alerts</label>
+                    <input type="checkbox" id="audio-toggle" checked>
+                </div>
+
+                <div class="control-group toggle-group">
+                    <label for="tts-toggle">🗣️ Text-to-Speech (TTS)</label>
+                    <input type="checkbox" id="tts-toggle">
+                </div>
+
+                <div class="control-group toggle-group">
+                    <label for="roi-toggle">🎯 Danger Zone (ROI)</label>
+                    <input type="checkbox" id="roi-toggle">
+                </div>
+
+                <div class="status-box" id="status-box">
+                    <span class="status-dot green"></span>
+                    <span id="status-text">System Ready</span>
+                </div>
+            </aside>
+
+            <!-- Video / Image Output Workspace -->
+            <section class="panel viewport-panel">
+                <!-- Webcam Mode Container -->
+                <div id="webcam-container" class="view-mode">
+                    <div class="canvas-wrapper">
+                        <video id="webcam-feed" autoplay playsinline muted></video>
+                        <canvas id="detection-canvas"></canvas>
+                    </div>
+                    <div class="btn-bar">
+                        <button class="action-btn start" id="start-cam-btn" onclick="startWebcam()">Start Camera</button>
+                        <button class="action-btn stop" id="stop-cam-btn" onclick="stopWebcam()" disabled>Stop Camera</button>
+                    </div>
+                </div>
+
+                <!-- Upload Mode Container -->
+                <div id="upload-container" class="view-mode hidden">
+                    <div class="upload-dropzone" id="dropzone" onclick="document.getElementById('file-input').click()">
+                        <input type="file" id="file-input" accept="image/*" style="display:none;" onchange="handleFileUpload(this.files)">
+                        <div class="dropzone-content">
+                            <span class="upload-icon">📁</span>
+                            <p>Drag & Drop Image or <strong>Browse File</strong></p>
+                            <small>Supports PNG, JPG, JPEG</small>
+                        </div>
+                    </div>
+                    <div id="upload-result" class="result-wrapper hidden">
+                        <img id="result-img" src="" alt="Detection Output">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Real-Time Detection Feed Stats -->
+            <aside class="panel stats-panel">
+                <h2>📊 Detections & Alerts</h2>
+                <div class="stats-counter">
+                    <div class="stat-card">
+                        <span class="stat-num" id="stat-count">0</span>
+                        <span class="stat-lbl">Objects Detected</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" id="stat-fps">0</span>
+                        <span class="stat-lbl">FPS Speed</span>
+                    </div>
+                </div>
+
+                <h3>Active Targets</h3>
+                <ul class="detection-list" id="detection-list">
+                    <li class="empty-msg">No active detections</li>
+                </ul>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Hidden Audio Player -->
+    <audio id="chime-audio" src="/sounds/alert.wav" preload="auto"></audio>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

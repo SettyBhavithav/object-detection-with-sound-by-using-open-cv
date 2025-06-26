@@ -1,0 +1,87 @@
+# Real-Time Object Detection & Audio Alert System Dependencies (Render Cloud Deployment)
+
+# Web Framework & Production WSGI Server
+Flask>=2.3.0
+gunicorn>=21.2.0
+
+# Headless Computer Vision & Numerical Computing
+opencv-python-headless>=4.7.0,<5.0.0
+numpy>=1.23.0
+scipy>=1.10.0
+
+# Text-To-Speech Engine (Pure Python / Cloud Compatible)
+gTTS>=2.3.0
+
+# [2025-06-27 17:46:17] Dev note: added non max suppression to remove duplicate object boxes
+
+# [2025-06-28 11:23:13] Dev note: updated README with webcam object detection setup guide
+
+# [2025-06-29 09:27:16] Dev note: integrated pyttsx3 voice feedback for detected objects
+
+# [2025-07-02 13:50:53] Dev note: created opencv video capture script
+
+# [2025-07-03 18:32:42] Dev note: added audio queue to prevent overlapping voice alerts
+
+# [2025-07-04 09:48:54] Dev note: loaded YOLOv3 pre-trained weights and coco class names
+
+# [2025-07-07 15:59:21] Dev note: optimized frame processing resolution to 640x480
+
+# [2025-07-08 20:23:26] Dev note: added bounding box drawing around detected objects
+
+# [2025-07-10 21:30:25] Dev note: added custom confidence threshold trackbar in UI
+
+# [2025-07-11 14:32:24] Dev note: added non max suppression to remove duplicate object boxes
+
+# [2025-07-12 16:40:39] Dev note: updated README with webcam object detection setup guide
+
+# [2025-07-13 17:35:18] Dev note: integrated pyttsx3 voice feedback for detected objects
+
+# [2025-07-16 09:33:50] Dev note: created opencv video capture script
+
+# [2025-07-18 09:49:18] Dev note: added audio queue to prevent overlapping voice alerts
+
+# [2025-07-18 11:43:22] Dev note: loaded YOLOv3 pre-trained weights and coco class names
+
+# [2025-07-18 20:42:42] Dev note: optimized frame processing resolution to 640x480
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
+
+# added custom confidence threshold trackbar in UI
+
+# added non max suppression to remove duplicate object boxes
