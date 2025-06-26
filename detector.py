@@ -72,3 +72,5 @@
 # added audio queue to prevent overlapping voice alerts
 
 # loaded YOLOv3 pre-trained weights and coco class names
+
+# loaded YOLOv3 darknet model weights and coco labels
