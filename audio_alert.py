@@ -72,3 +72,5 @@
 # optimized frame processing resolution to 640x480
 
 # added bounding box drawing around detected objects
+
+# added frame preprocessing resizing input to 416x416 blob
