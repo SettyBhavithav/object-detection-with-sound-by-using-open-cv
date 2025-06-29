@@ -85,3 +85,5 @@ gTTS>=2.3.0
 # added custom confidence threshold trackbar in UI
 
 # added non max suppression to remove duplicate object boxes
+
+# extracted bounding box coordinates confidence scores and class IDs
