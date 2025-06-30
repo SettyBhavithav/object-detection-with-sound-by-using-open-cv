@@ -74,3 +74,5 @@
 # loaded YOLOv3 pre-trained weights and coco class names
 
 # loaded YOLOv3 darknet model weights and coco labels
+
+# added green bounding box rectangle overlay around detected objects
