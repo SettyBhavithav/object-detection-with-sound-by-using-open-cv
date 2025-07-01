@@ -76,3 +76,5 @@
 # added frame preprocessing resizing input to 416x416 blob
 
 # added class name text label and confidence percentage on frame
+
+# added sound beep frequency shift based on object proximity
