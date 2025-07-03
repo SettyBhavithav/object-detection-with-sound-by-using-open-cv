@@ -91,3 +91,5 @@ gTTS>=2.3.0
 # integrated pyttsx3 text to speech engine for voice alerts
 
 # added keyboard control press q to exit video stream safely
+
+# added FPS performance counter on top left video corner
