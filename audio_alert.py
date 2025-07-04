@@ -82,3 +82,5 @@
 # added motion detection fallback using frame differencing
 
 # added error handling when webcam device is unavailable
+
+# cleaned up temporary audio cache files
