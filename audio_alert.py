@@ -80,3 +80,5 @@
 # added sound beep frequency shift based on object proximity
 
 # added motion detection fallback using frame differencing
+
+# added error handling when webcam device is unavailable
