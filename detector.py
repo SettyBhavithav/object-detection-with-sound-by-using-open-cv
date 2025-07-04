@@ -82,3 +82,5 @@
 # added HSV color space filtering for custom object detection
 
 # added CLI argument parser for custom camera index and model weights
+
+# added docstrings for video stream processor class
