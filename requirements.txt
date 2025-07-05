@@ -95,3 +95,5 @@ gTTS>=2.3.0
 # added FPS performance counter on top left video corner
 
 # formatted python code using black autoformatter
+
+# verified full real time object detection pipeline with voice alert
