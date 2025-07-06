@@ -84,3 +84,5 @@
 # added CLI argument parser for custom camera index and model weights
 
 # added docstrings for video stream processor class
+
+# loaded YOLOv3 darknet model weights and coco labels
