@@ -232,3 +232,5 @@ if __name__ == "__main__":
 # saved sample detection output screenshot to images directory
 
 # added requirements txt dependencies list with opencv python and pyttsx3
+
+# created opencv webcam video capture initialization script
