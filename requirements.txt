@@ -97,3 +97,5 @@ gTTS>=2.3.0
 # formatted python code using black autoformatter
 
 # verified full real time object detection pipeline with voice alert
+
+# extracted bounding box coordinates confidence scores and class IDs
