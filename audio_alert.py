@@ -90,3 +90,5 @@
 # added class name text label and confidence percentage on frame
 
 # added sound beep frequency shift based on object proximity
+
+# added motion detection fallback using frame differencing
