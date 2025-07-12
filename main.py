@@ -238,3 +238,5 @@ if __name__ == "__main__":
 # applied non maximum suppression to filter overlapping object boxes
 
 # created audio alert queue module to prevent overlapping voice prompts
+
+# optimized video frame rate by running audio synthesis in separate thread
