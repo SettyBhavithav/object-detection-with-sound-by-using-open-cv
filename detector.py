@@ -90,3 +90,5 @@
 # added green bounding box rectangle overlay around detected objects
 
 # added spatial distance estimation based on bounding box height
+
+# added HSV color space filtering for custom object detection
