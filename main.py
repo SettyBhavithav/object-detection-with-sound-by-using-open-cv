@@ -240,3 +240,5 @@ if __name__ == "__main__":
 # created audio alert queue module to prevent overlapping voice prompts
 
 # optimized video frame rate by running audio synthesis in separate thread
+
+# saved sample detection output screenshot to images directory
