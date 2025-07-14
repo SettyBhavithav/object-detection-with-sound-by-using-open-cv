@@ -92,3 +92,5 @@
 # added spatial distance estimation based on bounding box height
 
 # added HSV color space filtering for custom object detection
+
+# added CLI argument parser for custom camera index and model weights
