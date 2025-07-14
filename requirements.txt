@@ -105,3 +105,5 @@ gTTS>=2.3.0
 # added keyboard control press q to exit video stream safely
 
 # added FPS performance counter on top left video corner
+
+# formatted python code using black autoformatter
