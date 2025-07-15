@@ -242,3 +242,5 @@ if __name__ == "__main__":
 # optimized video frame rate by running audio synthesis in separate thread
 
 # saved sample detection output screenshot to images directory
+
+# added requirements txt dependencies list with opencv python and pyttsx3
