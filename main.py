@@ -246,3 +246,5 @@ if __name__ == "__main__":
 # added requirements txt dependencies list with opencv python and pyttsx3
 
 # created opencv webcam video capture initialization script
+
+# applied non maximum suppression to filter overlapping object boxes
