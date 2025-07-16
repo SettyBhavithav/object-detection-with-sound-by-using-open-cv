@@ -96,3 +96,5 @@
 # added error handling when webcam device is unavailable
 
 # cleaned up temporary audio cache files
+
+# added frame preprocessing resizing input to 416x416 blob
