@@ -98,3 +98,5 @@
 # added docstrings for video stream processor class
 
 # loaded YOLOv3 darknet model weights and coco labels
+
+# added green bounding box rectangle overlay around detected objects
