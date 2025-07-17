@@ -98,3 +98,5 @@
 # cleaned up temporary audio cache files
 
 # added frame preprocessing resizing input to 416x416 blob
+
+# added class name text label and confidence percentage on frame
