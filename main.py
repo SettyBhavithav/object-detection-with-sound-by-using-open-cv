@@ -248,3 +248,5 @@ if __name__ == "__main__":
 # created opencv webcam video capture initialization script
 
 # applied non maximum suppression to filter overlapping object boxes
+
+# created audio alert queue module to prevent overlapping voice prompts
