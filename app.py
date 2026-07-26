@@ -110,3 +110,5 @@ def detect_render_image_api():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
+# Rechecking OpenCV video stream initialization and pyttsx3 audio queue.
