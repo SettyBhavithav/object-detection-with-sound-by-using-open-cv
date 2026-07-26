@@ -201,39 +201,8 @@ Accepts image binary payload and returns JSON array of bounding boxes.
 
 ---
 
-## 📄 License & Acknowledgments
+## 🔒 License & Copyright
 
-This project is open-source under the **MIT License**.
-Special thanks to the **OpenCV** project and **Joseph Redmon (Darknet YOLO)** for foundational Computer Vision research.
+**Copyright © 2026 Setty Bhavithav. All Rights Reserved.**
 
-# [2025-06-27 16:17:38] Dev note: integrated pyttsx3 voice feedback for detected objects
-
-# [2025-06-28 18:43:43] Dev note: created opencv video capture script
-
-# [2025-07-01 17:10:31] Dev note: added audio queue to prevent overlapping voice alerts
-
-# [2025-07-02 16:32:46] Dev note: loaded YOLOv3 pre-trained weights and coco class names
-
-# [2025-07-03 12:34:38] Dev note: optimized frame processing resolution to 640x480
-
-# [2025-07-06 10:33:32] Dev note: added bounding box drawing around detected objects
-
-# [2025-07-07 16:41:27] Dev note: added custom confidence threshold trackbar in UI
-
-# [2025-07-09 17:32:55] Dev note: added non max suppression to remove duplicate object boxes
-
-# [2025-07-10 11:53:41] Dev note: updated README with webcam object detection setup guide
-
-# [2025-07-11 18:26:53] Dev note: integrated pyttsx3 voice feedback for detected objects
-
-# [2025-07-12 12:12:10] Dev note: created opencv video capture script
-
-# [2025-07-14 21:17:18] Dev note: added audio queue to prevent overlapping voice alerts
-
-# [2025-07-16 11:38:36] Dev note: loaded YOLOv3 pre-trained weights and coco class names
-
-# [2025-07-18 20:53:56] Dev note: optimized frame processing resolution to 640x480
-
-# [2025-07-18 11:35:10] Dev note: added bounding box drawing around detected objects
-
-# [2025-07-18 10:56:20] Dev note: added custom confidence threshold trackbar in UI
+This project and all associated source code, media assets, and documentation are proprietary. Unauthorized copying, modification, distribution, or reproduction of any part of this repository, via any medium, is strictly prohibited without explicit written consent from the copyright owner **Setty Bhavithav**.
